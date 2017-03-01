@@ -58,7 +58,7 @@ function isRelativeUrl(url) {
  * @return		string		Resolved Path/Url
  */
 function resolveRelativeUrls(srcFilePath, relativePath) {
-	return path.join(path.dirname(srcFilePath), relativePath);
+	return path.join(path.dirname(srcFilePath), relativePath).replace(/\\/g, "/");
 	}
 
 /**

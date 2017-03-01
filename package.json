@@ -1,25 +1,23 @@
 {
-  "name": "grunt-css-import",
+  "name": "grunt-css-import-ef",
   "description": "Concat the css file by \"@import\". The relative url of the background image and font face will be changed automatically.",
-  "version": "0.1.8",
-  "homepage": "https://github.com/lackhurt/grunt-css-import",
-  "author": {
+  "version": "0.1.9",
+  "homepage": "https://github.com/kumalee/grunt-css-import",
+  "author": [{
     "name": "lackhurt",
     "email": "pangjn@yeah.net"
-  },
+  },{
+    "name": "Kuma Li",
+    "email": "li.jun.kuma@gmail.com"
+  }],
   "repository": {
     "type": "git",
-    "url": "git://github.com/lackhurt/grunt-css-import.git"
+    "url": "git://github.com/kumalee/grunt-css-import.git"
   },
   "bugs": {
-    "url": "https://github.com/lackhurt/grunt-css-import/issues"
+    "url": "https://github.com/kumalee/grunt-css-import/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/lackhurt/gruntjs/blob/master/LICENSE-MIT"
-    }
-  ],
+  "licenses": "MIT",
   "engines": {
     "node": ">= 0.8.0"
   },
